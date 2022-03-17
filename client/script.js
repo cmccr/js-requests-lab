@@ -38,6 +38,10 @@ sayHelloButton.addEventListener('mouseover', () => {
 
 // CODE HERE
 
+sayHelloButton.addEventListener('mouseout', () => {
+    sayHelloButton.style.backgroundColor = '#EFEFEF';
+    sayHelloButton.style.color = 'black'
+})
 
 // PROBLEM 4
 /*
@@ -59,6 +63,7 @@ const sayHello = () => {
 
 // CODE HERE
 
+sayHelloButton.addEventListener('click', sayHello)
 
 // PROBLEM 5 
 /*
